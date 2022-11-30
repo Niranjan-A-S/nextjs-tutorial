@@ -10,7 +10,9 @@ const ProductList = ({ productID = 100 }) => {
         <Link href={"/product/2"}>Product 2</Link>
       </button>
       <button>
-        <Link href={"/product/3"}>Product 4</Link>
+        <Link href={"/product/3"} replace>
+          Product 3
+        </Link>
       </button>
       <button>
         <Link href={`/product/${productID}`}>Product {productID}</Link>
